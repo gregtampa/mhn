@@ -140,13 +140,14 @@ def create_clean_db():
             'Ubuntu - Conpot': path.abspath('../scripts/deploy_conpot.sh'),
             'Ubuntu - Dionaea': path.abspath('../scripts/deploy_dionaea.sh'),
             'Ubuntu - Snort': path.abspath('../scripts/deploy_snort.sh'),
-            'Ubuntu - Kippo': path.abspath('../scripts/deploy_kippo.sh'),
+            'Ubuntu/Raspberry Pi - Kippo': path.abspath('../scripts/deploy_kippo.sh'),
             'Ubuntu - Amun': path.abspath('../scripts/deploy_amun.sh'),
             'Ubuntu - Glastopf': path.abspath('../scripts/deploy_glastopf.sh'),
             'Ubuntu - Wordpot': path.abspath('../scripts/deploy_wordpot.sh'),
             'Ubuntu - Shockpot': path.abspath('../scripts/deploy_shockpot.sh'),
             'Ubuntu - p0f': path.abspath('../scripts/deploy_p0f.sh'),
             'Ubuntu - Suricata': path.abspath('../scripts/deploy_suricata.sh'),
+            'Ubuntu - ElasticHoney': path.abspath('../scripts/deploy_elastichoney.sh'),
             'Raspberry Pi - Dionaea': path.abspath('../scripts/deploy_raspberrypi.sh'),
         }
         for honeypot, deploypath in deployscripts.iteritems():
